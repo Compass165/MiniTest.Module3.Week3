@@ -96,14 +96,4 @@ ON		chitietphieuxuat.PhieuXuat_ID = phieuxuat.PhieuXuat_ID;
 SELECT	*
 FROM	vw_CTPhieuXuat_VT_PX;
 
--- Tạo các stored procedure sau
--- Câu 1. Tạo Stored procedure (SP) cho biết tổng số lượng cuối của vật tư với mã vật tư là tham số vào.
-
--- Câu 2. Tạo SP cho biết tổng tiền xuất của vật tư với mã vật tư là tham số vào.
-
--- Câu 3. Tạo SP cho biết tổng số lượng đặt theo số đơn hàng với số đơn hàng là tham số vào.
-
--- Câu 4. Tạo SP dùng để thêm một đơn đặt hàng.
-
--- Câu 5. Tạo SP dùng để thêm một chi tiết đơn đặt hàng.
 
