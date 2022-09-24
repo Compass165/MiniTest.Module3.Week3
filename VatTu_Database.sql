@@ -1,3 +1,5 @@
+CREATE DATABASE minitest_module3_week3;
+
 USE minitest_module3_week3;
 
 CREATE	TABLE	VatTu
@@ -5,7 +7,7 @@ CREATE	TABLE	VatTu
 		VatTu_ID				INT				PRIMARY KEY NOT NULL,
 		VatTu_Ma				VARCHAR(50)		NOT NULL,
         VatTu_Ten				VARCHAR(50)		NOT NULL,
-        VatTu_Dvt				INT,
+        VatTu_Dvt				VARCHAR(50),
         VatTu_Gia				INT
 	);
     
@@ -50,7 +52,7 @@ CREATE TABLE	PhieuXuat
 	(
 		PhieuXuat_ID			INT				PRIMARY KEY NOT NULL,
         PhieuXuat_Ma			VARCHAR(50),
-        PhieuXuat_NgayNhap		DATETIME,
+        PhieuXuat_NgayXuat		DATETIME,
         PhieuXuat_TenKhachHang	VARCHAR(50)
 	);
     
